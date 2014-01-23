@@ -16,7 +16,7 @@ $(call inherit-product, device/asus/deb/full_deb.mk)
 PRODUCT_DEVICE := deb
 PRODUCT_NAME := tg_deb
 PRODUCT_BRAND := google
-PRODUCT_MODEL := Nexus 7
+PRODUCT_MODEL := Nexus 7 LTE
 PRODUCT_MANUFACTURER := asus
 
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=razorg BUILD_FINGERPRINT=google/razorg/deb:4.4.2/KOT49H/937116:user/release-keys PRIVATE_BUILD_DESC="razorg-user 4.4.2 KOT49H 937116 release-keys"
