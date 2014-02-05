@@ -6,6 +6,9 @@ TARGET_SCREEN_WIDTH := 1080
 # Inherit some common Gummy stuff.
 $(call inherit-product, vendor/Gummy/config/common_full_tablet_wifionly.mk)
 
+# Inherit telephony stuff
+$(call inherit-product, vendor/Gummy/config/telephony.mk)
+
 # Enhanced NFC
 $(call inherit-product, vendor/Gummy/config/nfc_enhanced.mk)
 
