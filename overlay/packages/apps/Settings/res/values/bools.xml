@@ -24,4 +24,7 @@
     <!-- LED Flash -->
     <bool name="has_led_flash">false</bool>
 
+    <!-- Whether to show notification led color prefs -->	29
+    <bool name="config_multiColorNotificationLed">false</bool>
+
 </resources>
